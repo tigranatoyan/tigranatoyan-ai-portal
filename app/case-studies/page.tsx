@@ -15,7 +15,7 @@ export default function CaseStudiesPage() {
         <SectionHeader
           eyebrow="Case studies"
           title="Proof narratives with missing evidence clearly marked."
-          description="Phase 2 creates the structure and story. Screenshots, diagrams, videos, and sanitized links are collected through the evidence checklist."
+          description="Proof narratives with evidence, architecture context, and honest notes on what remains private or in progress."
         />
       </section>
       <section className="section-shell pt-0">

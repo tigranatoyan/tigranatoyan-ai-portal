@@ -16,7 +16,7 @@ export default function ServicesPage() {
         <SectionHeader
           eyebrow="Services / Role Fit"
           title="Two tracks, deliberately separated."
-          description="Employers evaluate Tigran for AI systems, product, platform, and delivery roles. Clients can discuss fixed-scope reporting, automation, and operating-system projects. No pricing is shown in Phase 2."
+          description="Employers evaluate Tigran for AI systems, product, platform, and delivery roles. Clients can discuss fixed-scope reporting, automation, and operating-system projects."
         />
       </section>
       <section id="employer-track" className="section-shell pt-0">

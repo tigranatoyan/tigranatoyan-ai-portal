@@ -41,8 +41,8 @@ export function PortfolioCard({ item, compact = false }: PortfolioCardProps) {
           </div>
           {item.assetPlaceholders.length ? (
             <div className="mt-5 grid gap-3 md:grid-cols-2">
-              {item.assetPlaceholders.slice(0, 2).map((asset) => (
-                <PlaceholderAsset key={asset} title="Asset placeholder" path={asset} />
+              {item.assetPlaceholders.map((asset) => (
+                <PlaceholderAsset key={asset} title={`${item.name} proof asset`} path={asset} />
               ))}
             </div>
           ) : null}
@@ -56,7 +56,7 @@ export function PortfolioCard({ item, compact = false }: PortfolioCardProps) {
             </Link>
           ) : (
             <span key={label} className="secondary-button cursor-not-allowed text-sm capitalize opacity-70" aria-disabled="true">
-              {label} placeholder
+              {label} · available on request
             </span>
           )
         )}

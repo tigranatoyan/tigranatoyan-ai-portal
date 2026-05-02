@@ -5,7 +5,7 @@ import { cv } from "@/content/cv";
 
 export const metadata = {
   title: "CV",
-  description: "Web CV summary and download placeholders for Tigran Atoyan."
+  description: "CV summary, core skills, and downloadable CV files for Tigran Atoyan."
 };
 
 export default function CVPage() {

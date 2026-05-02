@@ -85,7 +85,7 @@ export default function HomePage() {
       <CTASection
         eyebrow="CV and contact"
         title="Use the portal as the proof layer, then continue with the CV or a direct conversation."
-        description="CV downloads are wired as placeholders until final PDF and DOCX files are added. Contact links are explicit placeholders for Phase 2."
+        description="Download the CV or start a direct conversation."
         primaryLabel="Open CV page"
         primaryHref="/cv"
         secondaryLabel="Contact Tigran"

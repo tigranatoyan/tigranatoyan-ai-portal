@@ -35,7 +35,7 @@ export default function ContactPage() {
         <SectionHeader
           eyebrow="Contact"
           title="Start with the path that matches the conversation."
-          description="The form backend is intentionally deferred in Phase 2. Use email, LinkedIn, or GitHub placeholders until final links are confirmed."
+          description="Choose the path that fits the conversation. Email, LinkedIn, or GitHub — all real."
         />
       </section>
       <section className="section-shell pt-0">
@@ -51,7 +51,7 @@ export default function ContactPage() {
       </section>
       <section className="section-shell pt-0">
         <div className="glass-card p-6 md:p-8">
-          <h2 className="text-2xl font-semibold text-white">Direct contact placeholders</h2>
+          <h2 className="text-2xl font-semibold text-white">Direct contact</h2>
           <dl className="mt-6 grid gap-4 md:grid-cols-2">
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
               <dt className="text-sm font-semibold text-white">Email</dt>

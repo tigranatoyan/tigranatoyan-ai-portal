@@ -47,8 +47,8 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-systemforge-video"
     },
     assetPlaceholders: [
-      "/images/systemforge/systemforge-architecture-diagram-placeholder.png",
-      "/images/systemforge/director-arbiter-flow-placeholder.png"
+      "/images/systemforge/systemforge-operating-model.webp",
+      "/images/systemforge/systemforge-architecture-to-code.webp"
     ]
   },
   {
@@ -80,9 +80,9 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-director-walkthrough"
     },
     assetPlaceholders: [
-      "/images/director/cli-flow-placeholder.png",
-      "/images/director/dashboard-placeholder.png",
-      "/images/director/agent-class-map-placeholder.png"
+      "/images/director/director-agent-map.webp",
+      "/images/director/director-cli-or-dashboard.webp",
+      "/images/director/director-review-flow.webp"
     ]
   },
   {
@@ -115,9 +115,9 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-breadcost-walkthrough"
     },
     assetPlaceholders: [
-      "/images/breadcost/dashboard-placeholder.png",
-      "/images/breadcost/architecture-placeholder.png",
-      "/images/breadcost/test-evidence-placeholder.png"
+      "/images/breadcost/breadcost-dashboard.webp",
+      "/images/breadcost/breadcost-costing-flow.webp",
+      "/images/breadcost/breadcost-architecture.webp"
     ]
   },
   {
@@ -148,9 +148,9 @@ export const portfolioItems: PortfolioItem[] = [
       caseStudy: "/case-studies#project-semantic-engine"
     },
     assetPlaceholders: [
-      "/images/project-semantic-engine/repo-overview-placeholder.png",
-      "/images/project-semantic-engine/semantic-layers-placeholder.png",
-      "/images/project-semantic-engine/arcmap-pipeline-placeholder.png"
+      "/images/project-semantic-engine/semantic-engine-flow.webp",
+      "/images/project-semantic-engine/semantic-engine-artifact-map.webp",
+      "/images/project-semantic-engine/semantic-engine-validation-loop.webp"
     ]
   },
   {
