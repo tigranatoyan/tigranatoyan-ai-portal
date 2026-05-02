@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  poweredByHeader: false
+  poweredByHeader: false,
+  output: 'export',
+  images: { unoptimized: true }
 };
 
 module.exports = nextConfig;
