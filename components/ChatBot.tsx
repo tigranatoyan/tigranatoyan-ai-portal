@@ -16,7 +16,10 @@ const STARTER_QUESTIONS = [
 export function ChatBot() {
   // API routes are unavailable on GitHub Pages (static export) — hide the widget
   if (process.env.NEXT_PUBLIC_IS_GITHUB_PAGES === "true") return null;
+  return <ChatBotWidget />;
+}
 
+function ChatBotWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
