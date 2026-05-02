@@ -80,9 +80,9 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-director-walkthrough"
     },
     assetPlaceholders: [
-      "/images/director/director-agent-map.webp",
+      "/images/director/multi_agent_orchestration_system_map.png",
       "/images/director/director-cli-or-dashboard.webp",
-      "/images/director/director-review-flow.webp"
+      "/images/director/the.director_review_flow_infographic.png"
     ]
   },
   {
