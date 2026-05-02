@@ -57,13 +57,13 @@ export const cv = {
   downloads: {
     pdf: {
       label: "Download CV PDF",
-      path: "/cv/Tigran_Atoyan_AI_CV.pdf",
-      status: "placeholder"
+      path: "/tigranatoyan-ai-portal/cv/Tigran_Atoyan.pdf",
+      status: "ready"
     },
     docx: {
       label: "Download CV DOCX",
-      path: "/cv/Tigran_Atoyan_AI_CV.docx",
-      status: "placeholder"
+      path: "/tigranatoyan-ai-portal/cv/Tigran_Atoyan.docx",
+      status: "ready"
     }
   },
   availability:

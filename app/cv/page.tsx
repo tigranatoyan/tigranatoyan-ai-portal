@@ -15,13 +15,9 @@ export default function CVPage() {
       <section className="section-shell pt-14 md:pt-20">
         <SectionHeader eyebrow="CV" title="AI systems, delivery, product, and operations leadership." description={cv.intro} />
         <div className="mt-8 flex flex-wrap gap-3">
-          <span className="secondary-button cursor-not-allowed opacity-70" aria-disabled="true">{cv.downloads.pdf.label} · placeholder</span>
-          <span className="secondary-button cursor-not-allowed opacity-70" aria-disabled="true">{cv.downloads.docx.label} · placeholder</span>
+          <a href={cv.downloads.pdf.path} download className="secondary-button">{cv.downloads.pdf.label}</a>
+          <a href={cv.downloads.docx.path} download className="secondary-button">{cv.downloads.docx.label}</a>
           <Link href="/contact" className="primary-button">Contact</Link>
-        </div>
-        <div className="mt-6 grid gap-4 md:grid-cols-2">
-          <PlaceholderAsset title="PDF CV placeholder" path={cv.downloads.pdf.path} note="Add final PDF to enable real download." />
-          <PlaceholderAsset title="DOCX CV placeholder" path={cv.downloads.docx.path} note="Add final DOCX to enable real download." />
         </div>
       </section>
       <section className="section-shell pt-0">
