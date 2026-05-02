@@ -148,9 +148,9 @@ export const portfolioItems: PortfolioItem[] = [
       caseStudy: "/case-studies#project-semantic-engine"
     },
     assetPlaceholders: [
-      "/images/project-semantic-engine/semantic-engine-flow.webp",
-      "/images/project-semantic-engine/semantic-engine-artifact-map.webp",
-      "/images/project-semantic-engine/semantic-engine-validation-loop.webp"
+      "/images/project-semantic-engine/semantic-engine-overview.webp",
+      "/images/project-semantic-engine/semantic-engine-output-contracts.webp",
+      "/images/project-semantic-engine/semantic-engine-traceability.webp"
     ]
   },
   {
