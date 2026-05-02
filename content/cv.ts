@@ -25,8 +25,20 @@ export const cv = {
       skills: ["KPI dashboards", "CRM automation", "Google Sheets systems", "Executive reporting", "Operating cadence"]
     },
     {
+      title: "Semantic software discovery and traceability",
+      skills: [
+        "Artifact-driven discovery",
+        "ArcMap / value-flow modeling",
+        "Requirements traceability",
+        "Architecture artifact generation",
+        "Schema-driven delivery artifacts",
+        "Validation and critique gates",
+        "Business-to-backlog translation"
+      ]
+    },
+    {
       title: "Technical stack exposure",
-      skills: ["Java / Spring Boot", "Kotlin / Spring Boot", "PostgreSQL", "Next.js", "React", "TypeScript", "Playwright"]
+      skills: ["Java / Spring Boot", "Kotlin / Spring Boot", "PostgreSQL", "Next.js", "React", "TypeScript", "Playwright", "Python"]
     }
   ],
   experienceSummary: [
@@ -39,6 +51,7 @@ export const cv = {
     { label: "BreadCost", href: "/case-studies#breadcost" },
     { label: "The.Director", href: "/case-studies#the-director" },
     { label: "SystemForge / Architektr", href: "/portfolio#systemforge-architektr" },
+    { label: "Project Semantic Engine", href: "https://github.com/tigranatoyan/project-semantic-engine" },
     { label: "AI Weekly Business Report", href: "/case-studies#ai-weekly-business-report" }
   ],
   downloads: {

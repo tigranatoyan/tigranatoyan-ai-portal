@@ -121,6 +121,39 @@ export const portfolioItems: PortfolioItem[] = [
     ]
   },
   {
+    slug: "project-semantic-engine",
+    name: "Project Semantic Engine",
+    type: "Semantic requirements, architecture, and delivery artifact engine",
+    shortDescription:
+      "A public artifact-driven system for formalizing software discovery and transforming business/system understanding into requirements, architecture, delivery artifacts, and validation loops.",
+    problemSolved:
+      "Software discovery often jumps from fuzzy business conversation directly into fragmented backlog items. Project Semantic Engine creates a semantic middle layer using staged artifacts, ArcMaps, traceability rules, schemas, prompts, examples, and validation concepts.",
+    technologies: [
+      "Python",
+      "Markdown artifact system",
+      "YAML / JSON schema concepts",
+      "Traceability model",
+      "Requirements architecture pipeline",
+      "Artifact validation",
+      "CI/CD-ready repository structure",
+      "AI-assisted discovery prompts"
+    ],
+    whatItProves:
+      "Tigran can formalize the missing layer between business understanding and software delivery: actors, value flows, operational arcs, rules, state, data, NFRs, release design, requirements, architecture, delivery units, and validation.",
+    status: "needs-assets",
+    priority: "secondary",
+    links: {
+      github: "https://github.com/tigranatoyan/project-semantic-engine",
+      docs: "https://github.com/tigranatoyan/project-semantic-engine",
+      caseStudy: "/case-studies#project-semantic-engine"
+    },
+    assetPlaceholders: [
+      "/images/project-semantic-engine/repo-overview-placeholder.png",
+      "/images/project-semantic-engine/semantic-layers-placeholder.png",
+      "/images/project-semantic-engine/arcmap-pipeline-placeholder.png"
+    ]
+  },
+  {
     slug: "ai-project-progress-reporting",
     name: "AI Project Progress Reporting Framework",
     type: "Executive project visibility system",

@@ -62,6 +62,11 @@ export const site = {
       asset: "Product architecture proof"
     },
     {
+      label: "Project Semantic Engine",
+      description: "Artifact-driven discovery system connecting business reality to requirements, architecture, delivery, and validation.",
+      asset: "Semantic discovery proof"
+    },
+    {
       label: "Delivery Transformation",
       description: "15+ years of delivery, product, operations, and technology leadership.",
       asset: "Seniority proof"

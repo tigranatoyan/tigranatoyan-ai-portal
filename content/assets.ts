@@ -61,6 +61,16 @@ export const assetGroups: AssetGroup[] = [
     notes: "Architecture diagrams can be created before working screenshots exist."
   },
   {
+    group: "Project Semantic Engine",
+    folder: "/public/images/project-semantic-engine",
+    expectedFiles: ["repo-overview.webp", "semantic-layers.webp", "arcmap-pipeline.webp"],
+    currentStatus: "missing",
+    mandatoryForV01: false,
+    canWaitUntilV1: true,
+    sensitiveDataWarning: "Repo is public, but remove browser/account details from screenshots.",
+    notes: "Secondary public proof asset. Strengthens SystemForge/The.Director by showing the semantic discovery layer behind AI-assisted delivery. Recommended for v1; not a Phase 3 blocker."
+  },
+  {
     group: "Business reporting screenshots",
     folder: "/public/images/business-reporting",
     expectedFiles: ["weekly-report-input.webp", "weekly-report-dashboard.webp", "weekly-report-output.webp"],

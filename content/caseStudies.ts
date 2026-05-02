@@ -175,5 +175,44 @@ export const caseStudies: CaseStudy[] = [
       "Generated report screenshot or PDF",
       "Demo video"
     ]
+  },
+  {
+    slug: "project-semantic-engine",
+    title: "Project Semantic Engine: From fuzzy discovery to traceable delivery artifacts",
+    problem:
+      "Software discovery often moves too quickly from conversation to backlog, losing context, rules, exceptions, state, data, non-functional constraints, and traceability. This weakens AI-assisted delivery because code generation begins before the system meaning is stable.",
+    role:
+      "Creator and system designer of the public semantic artifact model, stage pipeline, ArcMap concept, repository structure, schemas, prompts, examples, and validation direction.",
+    approach: [
+      "Defined software discovery as a staged semantic pipeline rather than a feature list.",
+      "Placed ArcMap at the center as the durable unit connecting actors, value flows, operational arcs, handoffs, permissions, timing rules, outcomes, and recovery paths.",
+      "Structured the repository around docs, artifacts, schemas, prompts, tools, examples, and CI/CD validation direction.",
+      "Designed the engine to be human-readable, machine-friendly, versioned, traceable, and suitable for AI-assisted delivery workflows."
+    ],
+    whatWasBuilt: [
+      "Public GitHub repository for Project Semantic Engine.",
+      "Semantic stage model from mandate through validation and learning loop.",
+      "Artifact-driven repository structure with docs, artifacts, schemas, prompts, tools, examples, and GitHub workflow direction.",
+      "Traceability-first language for turning business/system understanding into requirements, architecture, delivery artifacts, and validation loops."
+    ],
+    technologies: [
+      "Python",
+      "Markdown",
+      "YAML / JSON schema concepts",
+      "GitHub repository structure",
+      "Artifact validation direction",
+      "CI/CD workflow direction",
+      "AI-assisted discovery prompts"
+    ],
+    resultOrProof:
+      "Public repository available at https://github.com/tigranatoyan/project-semantic-engine. Current status is version 0.1 working foundation, with language and schema formalization in progress.",
+    whatThisProves:
+      "Tigran can design the semantic control layer needed before AI-assisted code generation: discovery artifacts, traceability, validation, critique gates, and architecture-to-delivery continuity.",
+    missingEvidence: [
+      "Repository overview screenshot",
+      "Semantic layers diagram",
+      "ArcMap pipeline diagram",
+      "Short walkthrough video or architecture explainer"
+    ]
   }
 ];
