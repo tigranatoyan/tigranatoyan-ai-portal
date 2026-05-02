@@ -1,0 +1,179 @@
+export type CaseStudy = {
+  slug: string;
+  title: string;
+  problem: string;
+  role: string;
+  approach: string[];
+  whatWasBuilt: string[];
+  technologies: string[];
+  resultOrProof: string;
+  whatThisProves: string;
+  missingEvidence: string[];
+};
+
+export const caseStudies: CaseStudy[] = [
+  {
+    slug: "breadcost",
+    title: "BreadCost: From bakery operations chaos to full-stack management system",
+    problem:
+      "Bakery operations contain real-world complexity: recipes, yields, raw materials, production planning, inventory, costs, POS flows, and reporting. The problem is not simply making screens; it is turning an operating model into software.",
+    role:
+      "Product owner, domain analyst, architecture driver, AI-assisted builder, QA planner, and delivery planner.",
+    approach: [
+      "Mapped bakery operations into domains, workflows, rules, and invariants.",
+      "Structured the system around manufacturing cost accounting instead of generic inventory screens.",
+      "Separated backend, frontend, testing, role access, bilingual UI, and delivery planning artifacts.",
+      "Used AI-assisted workflows to accelerate specification, architecture, and implementation planning while keeping human review gates."
+    ],
+    whatWasBuilt: [
+      "Java / Spring Boot backend plan and implementation structure.",
+      "PostgreSQL data model direction.",
+      "Event-sourced CQRS architecture direction.",
+      "Next.js / React / TypeScript frontend structure.",
+      "RBAC, bilingual Armenian/English UI, QA plans, Playwright E2E coverage, architecture docs, requirements docs, Jira/release planning."
+    ],
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "CQRS",
+      "Event sourcing",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Playwright",
+      "Jira"
+    ],
+    resultOrProof:
+      "Primary proof will come from screenshots, architecture diagrams, repo structure, requirement artifacts, and test evidence. Current site version marks these as placeholders until sanitized assets are collected.",
+    whatThisProves:
+      "Tigran can turn messy business operations into structured product architecture, implementation plans, tested software, and executive-visible proof.",
+    missingEvidence: [
+      "Sanitized dashboard screenshots",
+      "Architecture diagram",
+      "Repo or sanitized repo screenshots",
+      "Playwright test screenshot or terminal output",
+      "Demo video walkthrough"
+    ]
+  },
+  {
+    slug: "the-director",
+    title: "The.Director: Controlled multi-agent orchestration for AI software delivery",
+    problem:
+      "Agentic software work can become unreliable when agents act without clear roles, arbitration, audit, persistence, or human approval. The.Director addresses the control layer, not just the assistant layer.",
+    role:
+      "Founder/product architect, workflow designer, role-class designer, governance designer, and AI-assisted implementation driver.",
+    approach: [
+      "Designed a Director / Arbiter / expert-role model for controlled agent orchestration.",
+      "Separated human review, persistence, audit, metrics, tracing, and tool access from raw agent output.",
+      "Linked the platform to the wider SystemForge vision: AI-first architecture-to-delivery workflow.",
+      "Defined agent classes such as Analyst, Architect, Coder, Validator, Arbiter, Product Owner, Project Manager, Designer, and QA."
+    ],
+    whatWasBuilt: [
+      "Kotlin / Spring Boot backend direction.",
+      "CLI and REST API interface concepts.",
+      "React dashboard direction.",
+      "MCP tool layer concept.",
+      "Human review flow, persistence, audit, metrics, tracing, Docker, and migrations direction."
+    ],
+    technologies: [
+      "Kotlin",
+      "Spring Boot",
+      "REST API",
+      "CLI",
+      "React",
+      "MCP",
+      "Docker",
+      "Database migrations",
+      "Observability"
+    ],
+    resultOrProof:
+      "Current proof is expected through repo screenshots, workflow examples, CLI/API/dashboard screen captures, and a walkthrough video. Public or sanitized access still needs a decision.",
+    whatThisProves:
+      "Tigran can think and build at the AI platform layer: orchestration, governance, role design, human-in-the-loop review, and controlled software delivery.",
+    missingEvidence: [
+      "Public or sanitized repo decision",
+      "CLI screenshot",
+      "Dashboard screenshot",
+      "Workflow trace screenshot",
+      "Agent/arbiter diagram",
+      "Demo video"
+    ]
+  },
+  {
+    slug: "delivery-transformation",
+    title: "Delivery Transformation: From chaotic execution to governed delivery systems",
+    problem:
+      "Delivery organizations can have unclear ownership, weak metrics, delayed visibility, low predictability, and fragmented governance. The issue is usually system design, not just team effort.",
+    role:
+      "Delivery, product, operations, and governance leader responsible for improving execution systems and executive visibility.",
+    approach: [
+      "Built governance cadence around delivery status, KPI visibility, and accountability.",
+      "Reduced ambiguity with clearer SDLC controls, dashboarding, reporting, and escalation logic.",
+      "Focused on lead time, cycle time, on-time delivery, change failure, stakeholder communication, and executive-facing clarity.",
+      "Converted operational chaos into inspectable management systems."
+    ],
+    whatWasBuilt: [
+      "Delivery dashboards and KPI cadence.",
+      "SDLC governance and reporting structures.",
+      "Executive communication routines.",
+      "Operational accountability model."
+    ],
+    technologies: [
+      "Delivery governance",
+      "KPI dashboards",
+      "SDLC controls",
+      "Executive reporting",
+      "Operational cadence"
+    ],
+    resultOrProof:
+      "Career proof includes 15+ years of leadership and reported delivery improvement from approximately 30% on-time delivery to approximately 90%, plus reduced lead/cycle times and change-failure rate. Supporting references or sanitized visuals should be collected before public claim expansion.",
+    whatThisProves:
+      "Tigran brings senior delivery judgment to AI systems, which matters when prototypes need to become reliable operating infrastructure.",
+    missingEvidence: [
+      "Sanitized before/after metrics chart",
+      "Delivery dashboard screenshot",
+      "Reference-safe project context notes",
+      "CV evidence alignment"
+    ]
+  },
+  {
+    slug: "ai-weekly-business-report",
+    title: "AI Weekly Business Report: From spreadsheet noise to executive clarity",
+    problem:
+      "Small teams often have CRM exports, spreadsheets, and status notes, but no concise weekly executive view showing what is growing, what is stuck, and what action is needed.",
+    role:
+      "Offer designer, reporting systems builder, KPI logic designer, and AI-assisted summary workflow designer.",
+    approach: [
+      "Defined a simple input path from Excel, Google Sheets, or CRM exports.",
+      "Mapped raw metrics into a business review format with red/yellow/green status logic.",
+      "Created executive summary structure focused on decisions and next actions.",
+      "Packaged the workflow as a fixed-scope service suitable for fast freelance/client delivery."
+    ],
+    whatWasBuilt: [
+      "Input template direction.",
+      "KPI dashboard direction.",
+      "Status logic direction.",
+      "AI-style executive summary output.",
+      "PDF/HTML report direction."
+    ],
+    technologies: [
+      "Excel",
+      "Google Sheets",
+      "CRM exports",
+      "KPI dashboarding",
+      "AI summary generation",
+      "PDF / HTML report output"
+    ],
+    resultOrProof:
+      "This is positioned as a practical demo and service offer. The v0.1 portal needs sample input data, a sample dashboard, and a sample generated report screenshot.",
+    whatThisProves:
+      "Tigran can turn AI automation into a useful business deliverable, not just a technical experiment.",
+    missingEvidence: [
+      "Sample input sheet screenshot",
+      "Sample dashboard screenshot",
+      "Generated report screenshot or PDF",
+      "Demo video"
+    ]
+  }
+];
