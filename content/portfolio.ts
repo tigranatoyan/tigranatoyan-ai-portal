@@ -47,8 +47,8 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-systemforge-video"
     },
     assetPlaceholders: [
-      "/images/systemforge/systemforge-operating-model.webp",
-      "/images/systemforge/systemforge-architecture-to-code.webp"
+      "/images/systemforge/systemforge-operating-model.png",
+      "/images/systemforge/systemforge-architecture-to-code.png"
     ]
   },
   {
