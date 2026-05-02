@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
-import { PlaceholderAsset } from "@/components/PlaceholderAsset";
 import { SectionHeader } from "@/components/SectionHeader";
 import { cv } from "@/content/cv";
 
