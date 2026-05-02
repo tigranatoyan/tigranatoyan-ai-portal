@@ -90,16 +90,18 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 
-  const completion = await openai.chat.completions.create({
+  const response = await openai.responses.create({
     model: "gpt-5.5",
-    messages: [
-      { role: "system", content: SYSTEM_PROMPT },
-      ...messages.slice(-10),
-    ],
-    max_tokens: 500,
-    temperature: 0.75,
+    instructions: SYSTEM_PROMPT,
+    input: messages.slice(-10),
+    reasoning: {
+      effort: "medium",
+    },
+    text: {
+      verbosity: "low",
+    },
   });
 
-  const message = completion.choices[0]?.message?.content ?? "I couldn't generate a response. Please try again.";
+  const message = response.output_text ?? "I couldn't generate a response. Please try again.";
   return NextResponse.json({ message });
 }
