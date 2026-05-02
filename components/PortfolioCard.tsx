@@ -54,6 +54,10 @@ export function PortfolioCard({ item, compact = false }: PortfolioCardProps) {
             <Link key={label} href={href} className="secondary-button text-sm capitalize">
               {label}
             </Link>
+          ) : href?.startsWith("http") ? (
+            <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="secondary-button text-sm capitalize">
+              {label}
+            </a>
           ) : (
             <span key={label} className="secondary-button cursor-not-allowed text-sm capitalize opacity-70" aria-disabled="true">
               {label} · available on request

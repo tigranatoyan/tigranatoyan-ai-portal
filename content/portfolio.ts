@@ -105,7 +105,7 @@ export const portfolioItems: PortfolioItem[] = [
     ],
     whatItProves:
       "Tigran can translate a complex real-world business domain into structured requirements, architecture, working software, tests, and delivery artifacts.",
-    status: "needs-assets",
+    status: "proof-ready",
     priority: "primary",
     links: {
       github: "#placeholder-breadcost-github",
@@ -140,7 +140,7 @@ export const portfolioItems: PortfolioItem[] = [
     ],
     whatItProves:
       "Tigran can formalize the missing layer between business understanding and software delivery: actors, value flows, operational arcs, rules, state, data, NFRs, release design, requirements, architecture, delivery units, and validation.",
-    status: "needs-assets",
+    status: "proof-ready",
     priority: "secondary",
     links: {
       github: "https://github.com/tigranatoyan/project-semantic-engine",
