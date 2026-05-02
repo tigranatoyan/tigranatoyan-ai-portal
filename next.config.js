@@ -1,13 +1,16 @@
 /** @type {import('next').NextConfig} */
+const isGithubPages = process.env.GITHUB_PAGES === "true";
+const basePath = isGithubPages ? "/tigranatoyan-ai-portal" : "";
+
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  output: 'export',
+  output: "export",
   images: { unoptimized: true },
-  basePath: '/tigranatoyan-ai-portal',
-  assetPrefix: '/tigranatoyan-ai-portal',
+  basePath,
+  assetPrefix: basePath,
   env: {
-    NEXT_PUBLIC_BASE_PATH: '/tigranatoyan-ai-portal',
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 

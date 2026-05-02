@@ -2,6 +2,7 @@ import Link from "next/link";
 import { CTASection } from "@/components/CTASection";
 import { SectionHeader } from "@/components/SectionHeader";
 import { cv } from "@/content/cv";
+import { assetPath } from "@/lib/assetPath";
 
 export const metadata = {
   title: "CV",
@@ -14,8 +15,8 @@ export default function CVPage() {
       <section className="section-shell pt-14 md:pt-20">
         <SectionHeader eyebrow="CV" title="AI systems, delivery, product, and operations leadership." description={cv.intro} />
         <div className="mt-8 flex flex-wrap gap-3">
-          <a href={cv.downloads.pdf.path} download className="secondary-button">{cv.downloads.pdf.label}</a>
-          <a href={cv.downloads.docx.path} download className="secondary-button">{cv.downloads.docx.label}</a>
+          <a href={assetPath(cv.downloads.pdf.path)} download className="secondary-button">{cv.downloads.pdf.label}</a>
+          <a href={assetPath(cv.downloads.docx.path)} download className="secondary-button">{cv.downloads.docx.label}</a>
           <Link href="/contact" className="primary-button">Contact</Link>
         </div>
       </section>
