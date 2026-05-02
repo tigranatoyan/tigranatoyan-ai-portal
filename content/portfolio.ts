@@ -233,7 +233,7 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-weekly-report-video"
     },
     assetPlaceholders: [
-      "/images/business-reporting/weekly-report-dashboard-placeholder.png"
+      "/images/business-reporting/ai_powered_weekly_business_performance_dashboard.png"
     ]
   }
 ];
