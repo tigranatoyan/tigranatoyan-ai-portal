@@ -40,15 +40,34 @@ export default function HomePage() {
         <div className="mt-8">
           <Link href="/portfolio" className="secondary-button">Open full portfolio</Link>
         </div>
-        <div className="mt-10 grid gap-4 md:grid-cols-2">
-          <blockquote className="glass-card p-5 border-l-2 border-signal/50">
-            <p className="text-sm leading-relaxed text-slate-200">Tigran can turn messy business operations into structured product architecture, implementation plans, tested software, and executive-visible proof.</p>
-            <footer className="mt-3 text-xs text-slate-500">BreadCost · full-stack business software</footer>
-          </blockquote>
-          <blockquote className="glass-card p-5 border-l-2 border-signal/50">
-            <p className="text-sm leading-relaxed text-slate-200">Tigran can think and build at the AI platform layer: orchestration, governance, role design, human-in-the-loop review, and controlled software delivery.</p>
-            <footer className="mt-3 text-xs text-slate-500">The.Director · multi-agent AI orchestration</footer>
-          </blockquote>
+        <div className="mt-12">
+          <p className="eyebrow mb-6">What the work proves</p>
+          <div className="grid gap-5 md:grid-cols-3">
+            <blockquote className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-signal/10 via-white/[0.03] to-transparent p-6">
+              <span className="pointer-events-none absolute -top-4 -left-1 select-none text-8xl font-serif leading-none text-signal/20" aria-hidden="true">&ldquo;</span>
+              <p className="relative text-sm leading-relaxed text-slate-100 font-medium">Tigran turns messy business operations into structured product architecture, implementation plans, tested software, and executive-visible proof — end to end, no hand-offs lost.</p>
+              <footer className="mt-5 flex items-center gap-2">
+                <span className="h-px w-5 bg-signal/50" />
+                <span className="text-xs font-medium text-signal/80 tracking-wide">BreadCost · Full-stack product build</span>
+              </footer>
+            </blockquote>
+            <blockquote className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-acid/10 via-white/[0.03] to-transparent p-6">
+              <span className="pointer-events-none absolute -top-4 -left-1 select-none text-8xl font-serif leading-none text-acid/20" aria-hidden="true">&ldquo;</span>
+              <p className="relative text-sm leading-relaxed text-slate-100 font-medium">Tigran thinks and builds at the AI platform layer: orchestration, governance, role design, human-in-the-loop review, and controlled software delivery — not just wiring API calls.</p>
+              <footer className="mt-5 flex items-center gap-2">
+                <span className="h-px w-5 bg-acid/50" />
+                <span className="text-xs font-medium text-acid/80 tracking-wide">The.Director · Multi-agent orchestration</span>
+              </footer>
+            </blockquote>
+            <blockquote className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-purple-500/10 via-white/[0.03] to-transparent p-6">
+              <span className="pointer-events-none absolute -top-4 -left-1 select-none text-8xl font-serif leading-none text-purple-400/20" aria-hidden="true">&ldquo;</span>
+              <p className="relative text-sm leading-relaxed text-slate-100 font-medium">Tigran designs serious AI product systems at the platform architecture level — governance, orchestration, and the delivery operating model that makes AI-assisted software trustworthy and scalable.</p>
+              <footer className="mt-5 flex items-center gap-2">
+                <span className="h-px w-5 bg-purple-400/50" />
+                <span className="text-xs font-medium text-purple-400/80 tracking-wide">SystemForge · AI delivery architecture</span>
+              </footer>
+            </blockquote>
+          </div>
         </div>
       </section>
       <section className="section-shell">

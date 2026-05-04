@@ -42,6 +42,14 @@ export function CaseStudyCard({ study }: CaseStudyCardProps) {
             <h4 className="font-semibold text-white">Result or proof</h4>
             <p className="mt-2 text-sm leading-6 text-slate-300">{study.resultOrProof}</p>
           </section>
+          <section>
+            <h4 className="font-semibold text-white">Technologies &amp; methods</h4>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {study.technologies.map((tech) => (
+                <span key={tech} className="rounded-full border border-white/10 bg-white/[0.05] px-3 py-1 text-xs text-slate-300">{tech}</span>
+              ))}
+            </div>
+          </section>
           <section className="rounded-2xl border border-acid/30 bg-acid/5 p-4">
             <h4 className="font-semibold text-white">What this proves</h4>
             <p className="mt-2 text-sm leading-6 text-slate-200">{study.whatThisProves}</p>
