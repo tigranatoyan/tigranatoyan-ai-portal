@@ -140,7 +140,6 @@ export const portfolioItems: PortfolioItem[] = [
     priority: "secondary",
     links: {
       github: "https://github.com/tigranatoyan/project-semantic-engine",
-      docs: "https://github.com/tigranatoyan/project-semantic-engine",
       caseStudy: "/case-studies#project-semantic-engine"
     },
     assetPlaceholders: [

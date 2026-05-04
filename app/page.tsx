@@ -38,7 +38,7 @@ export default function HomePage() {
           ))}
         </div>
         <div className="mt-8">
-          <Link href="/portfolio" className="secondary-button">Open full portfolio</Link>
+          <Link href="/portfolio" className="secondary-button">Open portfolio</Link>
         </div>
         <div className="mt-12">
           <p className="eyebrow mb-6">What the work proves</p>
@@ -104,7 +104,7 @@ export default function HomePage() {
         description="Start with BreadCost, The.Director, and SystemForge — three assets showing real business software, agentic orchestration, and AI platform architecture."
         primaryLabel="Open portfolio"
         primaryHref="/portfolio"
-        secondaryLabel="Contact Tigran"
+        secondaryLabel="Contact"
         secondaryHref="/contact"
       />
     </>

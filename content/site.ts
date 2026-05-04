@@ -41,7 +41,7 @@ export const site = {
   footerLinks: [
     { label: "Portfolio", href: "/portfolio" },
     { label: "Case Studies", href: "/case-studies" },
-    { label: "Services", href: "/services" },
+    { label: "Services / Role Fit", href: "/services" },
     { label: "CV", href: "/cv" },
     { label: "Contact", href: "/contact" }
   ] satisfies NavLink[],
