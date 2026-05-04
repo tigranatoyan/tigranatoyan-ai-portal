@@ -19,7 +19,7 @@ export default function ServicesPage() {
           description="Employers evaluate Tigran for AI systems, product, platform, and delivery roles. Clients can discuss fixed-scope reporting, automation, and operating-system projects."
         />
       </section>
-      <section id="employer-track" className="section-shell pt-0">
+      <section id="employer-track" className="section-shell pt-0 scroll-mt-20">
         <SectionHeader
           eyebrow="For employers"
           title="Role fit cards"
@@ -31,7 +31,7 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
-      <section id="client-track" className="section-shell pt-0">
+      <section id="client-track" className="section-shell pt-0 scroll-mt-20">
         <SectionHeader
           eyebrow="For clients"
           title="Fixed-scope AI automation and reporting offers"
