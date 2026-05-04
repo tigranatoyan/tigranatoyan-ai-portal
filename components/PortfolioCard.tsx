@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { PortfolioItem } from "@/content/portfolio";
-import { PlaceholderAsset } from "@/components/PlaceholderAsset";
 import { StatusPill } from "@/components/StatusPill";
 
 type PortfolioCardProps = {
@@ -42,7 +42,16 @@ export function PortfolioCard({ item, compact = false }: PortfolioCardProps) {
           {item.assetPlaceholders.length ? (
             <div className="mt-5 grid gap-3 md:grid-cols-2">
               {item.assetPlaceholders.map((asset) => (
-                <PlaceholderAsset key={asset} title={`${item.name} proof asset`} path={asset} />
+                <div key={asset} className="overflow-hidden rounded-xl border border-white/10 bg-white/[0.03]">
+                  <Image
+                    src={asset}
+                    alt={`${item.name} proof asset`}
+                    width={800}
+                    height={450}
+                    className="w-full h-auto object-contain"
+                    unoptimized
+                  />
+                </div>
               ))}
             </div>
           ) : null}

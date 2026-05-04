@@ -1,5 +1,4 @@
 import type { CaseStudy } from "@/content/caseStudies";
-import { PlaceholderAsset } from "@/components/PlaceholderAsset";
 
 type CaseStudyCardProps = {
   study: CaseStudy;
@@ -54,7 +53,6 @@ export function CaseStudyCard({ study }: CaseStudyCardProps) {
             <h4 className="font-semibold text-white">What this proves</h4>
             <p className="mt-2 text-sm leading-6 text-slate-200">{study.whatThisProves}</p>
           </section>
-          <PlaceholderAsset title="Missing evidence to collect" note={study.missingEvidence.join(" · ")} />
         </div>
       </div>
     </article>
