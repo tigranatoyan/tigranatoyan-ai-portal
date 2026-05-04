@@ -44,12 +44,13 @@ export default function ServicesPage() {
         </div>
       </section>
       <CTASection
-        title="Choose the conversation path."
-        description="Hiring conversation, fixed-scope client project, or AI/devtools collaboration: the contact page separates the paths."
-        primaryLabel="Contact"
-        primaryHref="/contact"
-        secondaryLabel="Open CV"
-        secondaryHref="/cv"
+        eyebrow="Next: the CV"
+        title="The CV backs every claim on this page."
+        description="15+ years of delivery leadership, AI systems thinking, and product architecture — documented and downloadable."
+        primaryLabel="Open CV"
+        primaryHref="/cv"
+        secondaryLabel="Contact"
+        secondaryHref="/contact"
       />
     </>
   );

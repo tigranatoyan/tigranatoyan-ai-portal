@@ -26,10 +26,11 @@ export default function CaseStudiesPage() {
         </div>
       </section>
       <CTASection
-        title="Evidence turns claims into proof."
-        description="The next phase should add screenshots, diagrams, sanitized repo links, walkthrough videos, and CV files."
-        primaryLabel="See evidence checklist"
-        primaryHref="/portfolio"
+        eyebrow="Next: role fit and offers"
+        title="See where these capabilities translate into employer and client value."
+        description="Hiring tracks, fixed-scope automation offers, and role positioning — separated clearly so you can find the right conversation path."
+        primaryLabel="View role fit & offers"
+        primaryHref="/services"
         secondaryLabel="Contact"
         secondaryHref="/contact"
       />

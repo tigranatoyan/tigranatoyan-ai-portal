@@ -99,11 +99,11 @@ export default function HomePage() {
         </div>
       </section>
       <CTASection
-        eyebrow="CV and contact"
-        title="Use the portal as the proof layer, then continue with the CV or a direct conversation."
-        description="Download the CV or start a direct conversation."
-        primaryLabel="Open CV page"
-        primaryHref="/cv"
+        eyebrow="Next: the proof"
+        title="The fastest path to proof is through the portfolio."
+        description="Start with BreadCost, The.Director, and SystemForge — three assets showing real business software, agentic orchestration, and AI platform architecture."
+        primaryLabel="Open portfolio"
+        primaryHref="/portfolio"
         secondaryLabel="Contact Tigran"
         secondaryHref="/contact"
       />
