@@ -1,4 +1,3 @@
-import { CTASection } from "@/components/CTASection";
 import { OpenChatButton } from "@/components/OpenChatButton";
 import { SectionHeader } from "@/components/SectionHeader";
 import { site } from "@/content/site";
@@ -87,14 +86,19 @@ export default function ContactPage() {
           </dl>
         </div>
       </section>
-      <CTASection
-        title="Ready for proof inspection?"
-        description="Start with the portfolio and case studies, then continue the conversation with the path above."
-        primaryLabel="Open portfolio"
-        primaryHref="/portfolio"
-        secondaryLabel="Open CV"
-        secondaryHref="/cv"
-      />
+      <section className="section-shell pt-0 pb-20">
+        <div className="glass-card p-6 md:p-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="eyebrow">Ready to reach out?</p>
+            <h2 className="mt-1 text-xl font-semibold text-white">Start the conversation directly.</h2>
+            <p className="mt-2 text-sm leading-6 text-slate-400">Email or LinkedIn — both are checked regularly. Pick the path that matches the conversation above.</p>
+          </div>
+          <div className="flex shrink-0 flex-wrap gap-3">
+            <a href={`mailto:${site.email}`} className="primary-button">Send an email</a>
+            <a href={site.linkedin} target="_blank" rel="noopener noreferrer" className="secondary-button">Connect on LinkedIn</a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
