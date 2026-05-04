@@ -50,8 +50,8 @@ export const cv = {
   selectedProofLinks: [
     { label: "BreadCost", href: "/case-studies#breadcost" },
     { label: "The.Director", href: "/case-studies#the-director" },
-    { label: "SystemForge / Architektr", href: "/portfolio#systemforge-architektr" },
-    { label: "Project Semantic Engine", href: "https://github.com/tigranatoyan/project-semantic-engine" },
+    { label: "SystemForge / Architektr", href: "/case-studies#systemforge-architektr" },
+    { label: "Project Semantic Engine", href: "/case-studies#project-semantic-engine" },
     { label: "AI Weekly Business Report", href: "/case-studies#ai-weekly-business-report" }
   ],
   downloads: {
