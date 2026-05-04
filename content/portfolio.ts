@@ -43,8 +43,7 @@ export const portfolioItems: PortfolioItem[] = [
     priority: "primary",
     links: {
       docs: "#placeholder-systemforge-docs",
-      caseStudy: "/case-studies#systemforge-architektr",
-      video: "#placeholder-systemforge-video"
+      caseStudy: "/case-studies#systemforge-architektr"
     },
     assetPlaceholders: [
       "/images/systemforge/systemforge-proof-overview.svg",
@@ -72,13 +71,12 @@ export const portfolioItems: PortfolioItem[] = [
     ],
     whatItProves:
       "Tigran can move from AI vision to a concrete agentic platform architecture with governance, operator visibility, and delivery mechanics.",
-    status: "private-proof",
+    status: "proof-ready",
     priority: "primary",
     links: {
-      github: "#placeholder-private-or-sanitized-repo",
+      github: "https://github.com/tigranatoyan/The.Director",
       demo: "#placeholder-director-demo",
-      caseStudy: "/case-studies#the-director",
-      video: "#placeholder-director-walkthrough"
+      caseStudy: "/case-studies#the-director"
     },
     assetPlaceholders: [
       "/images/director/director-proof-overview.svg",
@@ -110,11 +108,10 @@ export const portfolioItems: PortfolioItem[] = [
     status: "proof-ready",
     priority: "primary",
     links: {
-      github: "#placeholder-breadcost-github",
+      github: "https://github.com/tigranatoyan/breadcost-app",
       demo: "#placeholder-breadcost-demo",
       caseStudy: "/case-studies#breadcost",
-      docs: "#placeholder-breadcost-docs",
-      video: "#placeholder-breadcost-walkthrough"
+      docs: "#placeholder-breadcost-docs"
     },
     assetPlaceholders: [
       "/images/breadcost/breadcost-proof-overview.svg",
@@ -232,8 +229,7 @@ export const portfolioItems: PortfolioItem[] = [
     status: "needs-assets",
     priority: "secondary",
     links: {
-      demo: "#placeholder-weekly-report-demo",
-      video: "#placeholder-weekly-report-video"
+      demo: "#placeholder-weekly-report-demo"
     },
     assetPlaceholders: [
       "/images/business-reporting/ai_powered_weekly_business_performance_dashboard.png"
