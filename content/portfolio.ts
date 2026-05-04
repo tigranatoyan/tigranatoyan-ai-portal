@@ -76,7 +76,8 @@ export const portfolioItems: PortfolioItem[] = [
     links: {
       github: "https://github.com/tigranatoyan/The.Director",
       demo: "#placeholder-director-demo",
-      caseStudy: "/case-studies#the-director"
+      caseStudy: "/case-studies#the-director",
+      docs: "#placeholder-director-docs"
     },
     assetPlaceholders: [
       "/images/director/director-proof-overview.svg",
