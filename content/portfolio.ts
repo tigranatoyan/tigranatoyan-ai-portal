@@ -47,6 +47,7 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-systemforge-video"
     },
     assetPlaceholders: [
+      "/images/systemforge/systemforge-proof-overview.svg",
       "/images/systemforge/systemforge-operating-model.png",
       "/images/systemforge/systemforge-architecture-to-code.png"
     ]
@@ -80,6 +81,7 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-director-walkthrough"
     },
     assetPlaceholders: [
+      "/images/director/director-proof-overview.svg",
       "/images/director/multi_agent_orchestration_system_map.png",
       "/images/director/director-cli-or-dashboard.webp",
       "/images/director/the.director_review_flow_infographic.png"
@@ -115,6 +117,7 @@ export const portfolioItems: PortfolioItem[] = [
       video: "#placeholder-breadcost-walkthrough"
     },
     assetPlaceholders: [
+      "/images/breadcost/breadcost-proof-overview.svg",
       "/images/breadcost/breadcost-dashboard.webp",
       "/images/breadcost/breadcost-costing-flow.webp",
       "/images/breadcost/breadcost-architecture.webp"

@@ -4,6 +4,34 @@ Proof-first public portal for Tigran Atoyan: AI Systems & Operations Builder, AI
 
 This is not a generic portfolio site. It is a conversion asset for hiring managers, CTOs, founders, recruiters, and selected clients who need to inspect proof quickly.
 
+## Live URLs
+
+| Deployment | URL |
+|------------|-----|
+| **Primary (Vercel)** | https://tigranatoyan-ai-portal.vercel.app/ |
+| **Secondary (GitHub Pages)** | https://tigranatoyan.github.io/tigranatoyan-ai-portal/ |
+
+> **Note:** `robots: { index: false, follow: false }` is set intentionally. Public indexing will be enabled only when explicitly approved.
+
+## Phase status
+
+| Phase | Status |
+|-------|--------|
+| Phase 1 — Repo setup, Next.js scaffold | ✅ Complete |
+| Phase 2 — Portfolio content, proof assets, CV | ✅ Complete |
+| Phase 3 — Cleanup, dual deployment, AI bot | ✅ Complete |
+| Phase 4 — Deployment validation, evidence scripts | ✅ Complete |
+| Phase 5 — OG image, proof SVGs, site URL update | ✅ Complete |
+
+## Proof assets
+
+- **BreadCost** — full-stack bakery manufacturing cost accounting (Java/Spring Boot, Next.js, PostgreSQL)
+- **The.Director** — controlled multi-agent orchestration platform (Kotlin/Spring Boot)
+- **SystemForge / Architektr** — AI-first software delivery factory vision
+- **Project Semantic Engine** — public artifact-driven discovery system ([GitHub](https://github.com/tigranatoyan/project-semantic-engine))
+
+> Proof assets are real systems, not demos. Private proofs are labelled honestly.
+
 ## Tech stack
 
 - Next.js

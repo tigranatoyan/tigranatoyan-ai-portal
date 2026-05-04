@@ -7,8 +7,8 @@ type VideoSectionProps = {
 };
 
 export function VideoSection({
-  title = "Demo video placeholder",
-  description = "The homepage video will introduce Tigran, show BreadCost and The.Director, and end with a hiring/conversation CTA."
+  title = "Video walkthrough coming soon",
+  description = "For now, inspect the proof assets below: BreadCost, The.Director, SystemForge, and Project Semantic Engine."
 }: VideoSectionProps) {
   return (
     <section className="section-shell">
@@ -16,9 +16,9 @@ export function VideoSection({
       <div className="mt-8 aspect-video rounded-3xl border border-dashed border-slate-600 bg-[radial-gradient(circle_at_center,rgba(141,220,255,0.16),rgba(5,7,13,0.9)_45%)] p-6 shadow-executive">
         <div className="flex h-full items-center justify-center text-center">
           <PlaceholderAsset
-            title="Hero video not added yet"
-            path="/public/videos/hero-video-link.txt or external embed URL"
-            note="Phase 2 intentionally uses this clean placeholder. Replace in Phase 3 after the walkthrough is recorded or hosted."
+            title="Video walkthrough coming soon."
+            path="BreadCost · The.Director · SystemForge · Project Semantic Engine"
+            note="For now, inspect the proof assets below: BreadCost, The.Director, SystemForge, and Project Semantic Engine."
           />
         </div>
       </div>

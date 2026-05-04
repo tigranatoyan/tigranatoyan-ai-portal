@@ -11,3 +11,9 @@ pnpm-debug.log*
 
 # Phase 3 evidence (local only)
 _phase3_evidence/
+
+# Phase 5 additions
+out.zip
+docs/source-artifacts/sdic/SDIC.zip
+*.local.zip
+tsconfig.tsbuildinfo

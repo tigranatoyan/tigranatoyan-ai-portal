@@ -22,7 +22,7 @@ export const site = {
   availability: "Open to AI systems, AI product, agentic workflow, delivery leadership, and focused automation projects.",
   emailLabel: "Tigran Atoyan's email",
   email: "tigran.atoyan80@gmail.com",
-  url: "https://tigran-atoyan-ai.vercel.app",
+  url: "https://tigranatoyan-ai-portal.vercel.app/",
   linkedin: "https://www.linkedin.com/in/tigran-atoyan-19533a3/",
   github: "https://github.com/tigranatoyan",
   ctas: {
@@ -81,5 +81,5 @@ export const seo = {
   ogTitle: "Tigran Atoyan | AI Systems & Operations Builder",
   ogDescription:
     "Senior delivery and operations leader building AI systems, dashboards, agentic workflows, and full-stack business software.",
-  ogImage: "/og/og-image-placeholder.png"
+  ogImage: "/og/og-image.png"
 };
