@@ -4,7 +4,7 @@ import { Hero } from "@/components/Hero";
 import { PortfolioCard } from "@/components/PortfolioCard";
 import { ProofBadge } from "@/components/ProofBadge";
 import { SectionHeader } from "@/components/SectionHeader";
-import { VideoSection } from "@/components/VideoSection";
+import { ProofPathSection } from "@/components/ProofPathSection";
 import { caseStudies } from "@/content/caseStudies";
 import { featuredPortfolioItems } from "@/content/portfolio";
 import { employerRoles, clientOffers } from "@/content/services";
@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <VideoSection title="From delivery leader to AI systems builder" />
+      <ProofPathSection />
       <section className="section-shell">
         <SectionHeader
           eyebrow="Proof, not fog"

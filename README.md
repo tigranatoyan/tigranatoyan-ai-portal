@@ -38,6 +38,10 @@ noindex/nofollow preserved until explicit public indexing approval.
 | Phase 4 — Deployment validation, evidence scripts | ✅ Complete |
 | Phase 5 — OG image, proof SVGs, site URL update | ✅ Complete |
 
+## Hero walkthrough
+
+The original hero video has been deferred to a later version. The homepage now uses a Guided Proof Path section that routes visitors to the most relevant proof assets by role and intent.
+
 ## Proof assets
 
 - **BreadCost** — full-stack bakery manufacturing cost accounting (Java/Spring Boot, Next.js, PostgreSQL)
