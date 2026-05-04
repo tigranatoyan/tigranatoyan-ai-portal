@@ -12,7 +12,7 @@ const proofPaths = [
     title: "Business software and AI solutions fit",
     copy: "Start with BreadCost to see how messy operational complexity becomes structured software, architecture, requirements, testing, and product logic.",
     cta: "View BreadCost proof",
-    href: "/case-studies",
+    href: "/portfolio",
     external: false,
   },
   {
@@ -26,8 +26,8 @@ const proofPaths = [
     title: "Semantic discovery and traceability",
     copy: "Start with Project Semantic Engine to inspect the public repo for artifact-driven discovery, requirements, architecture, delivery units, and validation loops.",
     cta: "Open Project Semantic Engine",
-    href: "https://github.com/tigranatoyan/project-semantic-engine",
-    external: true,
+    href: "/portfolio",
+    external: false,
   },
 ];
 
