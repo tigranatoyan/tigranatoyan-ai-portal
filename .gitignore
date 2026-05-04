@@ -17,3 +17,6 @@ out.zip
 docs/source-artifacts/sdic/SDIC.zip
 *.local.zip
 tsconfig.tsbuildinfo
+
+# Local archive of removed files
+_archive/
