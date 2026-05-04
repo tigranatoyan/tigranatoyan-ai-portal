@@ -16,8 +16,8 @@ export function Navbar() {
             </Link>
           ))}
         </div>
-        <Link href="/contact" className="hidden rounded-full border border-signal/30 px-4 py-2 text-sm font-medium text-signal transition hover:bg-signal/10 md:inline-flex">
-          Contact
+        <Link href="/contact#chatbot" className="hidden rounded-full border border-signal/30 px-4 py-2 text-sm font-medium text-signal transition hover:bg-signal/10 md:inline-flex">
+          Talk to AI
         </Link>
       </nav>
     </header>

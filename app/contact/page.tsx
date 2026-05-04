@@ -51,7 +51,7 @@ export default function ContactPage() {
       </section>
       <section className="section-shell pt-0">
         {process.env.NEXT_PUBLIC_IS_GITHUB_PAGES !== "true" && (
-          <div className="glass-card p-6 md:p-8 mb-6">
+          <div id="chatbot" className="glass-card p-6 md:p-8 mb-6 scroll-mt-20">
             <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
               <div>
                 <p className="eyebrow">Not sure where to start?</p>
