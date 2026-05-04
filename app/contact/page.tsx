@@ -70,9 +70,6 @@ export default function ContactPage() {
               <dd className="mt-2 text-sm text-slate-300">{site.location} · {site.timezone}</dd>
             </div>
           </dl>
-          <div className="mt-6 rounded-2xl border border-dashed border-slate-600 p-4 text-sm text-slate-400">
-            Contact form deferred: add only after email/CRM handling, spam protection, and privacy language are approved.
-          </div>
         </div>
       </section>
       <CTASection
