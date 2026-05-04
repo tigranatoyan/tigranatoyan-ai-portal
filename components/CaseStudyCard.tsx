@@ -7,7 +7,7 @@ type CaseStudyCardProps = {
 
 export function CaseStudyCard({ study }: CaseStudyCardProps) {
   return (
-    <article id={study.slug} className="glass-card p-6 md:p-8">
+    <article id={study.slug} className="glass-card p-6 md:p-8 scroll-mt-20">
       <p className="eyebrow">Case study</p>
       <h3 className="mt-3 text-2xl font-semibold tracking-tight text-white md:text-3xl">{study.title}</h3>
       <div className="mt-6 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">

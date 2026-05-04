@@ -13,6 +13,48 @@ export type CaseStudy = {
 
 export const caseStudies: CaseStudy[] = [
   {
+    slug: "systemforge-architektr",
+    title: "SystemForge / Architektr: AI-first software delivery architecture as a product",
+    problem:
+      "Most AI coding tools operate at the assistant layer: they autocomplete, generate snippets, or run isolated tasks. None of them address the operating system layer — how business intent becomes governed architecture, how architecture becomes delivery artifacts, how delivery artifacts become code execution paths, and how quality gates and human approval prevent runaway automation.",
+    role:
+      "Founder, product architect, and AI-assisted system designer. Responsible for concept, operating model design, agent role classification, governance layer design, and product architecture documentation.",
+    approach: [
+      "Separated AI-first software delivery into distinct layers: discovery, architecture, artifact generation, delivery execution, and quality arbitration.",
+      "Designed a recursive sub-Director model where orchestration can be delegated without losing control.",
+      "Placed human approval gates and Arbiter quality control at the architecture level, not as optional overlays.",
+      "Defined a Knowledge Engine concept to accumulate and apply institutional context across delivery cycles.",
+      "Linked SystemForge to The.Director as its proof-of-concept implementation layer."
+    ],
+    whatWasBuilt: [
+      "Product architecture concept and operating model for an AI-first software delivery factory.",
+      "Agent role taxonomy: Director, Arbiter, Analyst, Architect, Coder, Reviewer, QA, Domain Expert, Ops/Resource.",
+      "Architecture-to-Jira-to-code pipeline model.",
+      "Governance layer design: human review gates, Arbiter quality gates, audit trails.",
+      "Knowledge Engine concept for institutional memory across delivery cycles.",
+      "SystemForge/Architektr product documentation and delivery vision."
+    ],
+    technologies: [
+      "Agentic workflow design",
+      "Architecture-to-Jira-to-code model",
+      "Human approval gates",
+      "Arbiter quality gates",
+      "Knowledge Engine concept",
+      "Recursive sub-Director model"
+    ],
+    resultOrProof:
+      "The.Director serves as the concrete proof-of-concept for the SystemForge vision. Architecture documentation, operating model diagrams, and agent role specifications are the primary evidence assets. Public or sanitized access decision pending.",
+    whatThisProves:
+      "Tigran can design serious AI product systems at the platform architecture level — not just prompt isolated assistants or wire together API calls, but build the governance, orchestration, and delivery operating model that makes AI-assisted software delivery trustworthy and scalable.",
+    missingEvidence: [
+      "SystemForge operating model diagram",
+      "Architecture-to-delivery pipeline visual",
+      "Agent role taxonomy diagram",
+      "Governance layer architecture diagram",
+      "Knowledge Engine concept diagram"
+    ]
+  },
+  {
     slug: "breadcost",
     title: "BreadCost: From bakery operations chaos to full-stack management system",
     problem:
