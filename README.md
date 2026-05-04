@@ -127,54 +127,21 @@ Place proof assets under `public/`.
 - Project progress proof: `public/images/project-progress/`
 - Delivery transformation proof: `public/images/delivery-transformation/`
 - Videos or video link files: `public/videos/`
-- OpenGraph image: `public/og/og-image.png`
+- OpenGraph image: generated at `/og/og-image.png` via `app/og/og-image.png/route.tsx`
 
-## Missing assets list
+## Deployment
 
-Mandatory before preview launch:
+### Vercel (primary)
 
-1. Final CV PDF.
-2. Final CV DOCX.
-3. Final email, LinkedIn, and GitHub links.
-4. BreadCost screenshots or sanitized proof images.
-5. The.Director screenshots or sanitized proof images.
-6. SystemForge diagram.
-
-Can wait until v1:
-
-1. Profile photo/avatar.
-2. Final OpenGraph image.
-3. AI Weekly Business Report screenshots.
-4. Project Progress Portal screenshots.
-5. Delivery Transformation visuals.
-6. Hero and walkthrough videos.
-
-## Phase 2 status
-
-This repo contains the technical skeleton, routes, components, content files, asset folders, evidence checklist, and completion report.
-
-It does **not** deploy to Vercel yet.
-
-## Next phases
-
-### Phase 3 — First Portal Build Completion and Preview Deployment
-
-- Replace placeholder contact links.
-- Add CV files.
-- Add proof screenshots and diagrams.
-- Convert placeholder video section into real embed or link.
-- Polish responsive UI.
-- Run full local QA.
-- Deploy preview to Vercel only after approval.
-
-## Vercel deployment note
-
-Do not deploy from Phase 2 unless explicitly approved.
-
-When ready:
+Automatically deploys from `master`. Connect GitHub repo to Vercel with default Next.js settings.
 
 ```bash
 npm run build
 ```
 
-Then connect the GitHub repository to Vercel and use the default Next.js settings.
+### GitHub Pages (secondary)
+
+Deployed via GitHub Actions on push to `master`. See `.github/workflows/deploy.yml`.
+
+The `GITHUB_PAGES=true` env var enables static export mode and sets `basePath: /tigranatoyan-ai-portal`.
+
