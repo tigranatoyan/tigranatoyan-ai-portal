@@ -1,4 +1,5 @@
 import { OpenChatButton } from "@/components/OpenChatButton";
+import { CopyEmailButton } from "@/components/CopyEmailButton";
 import { SectionHeader } from "@/components/SectionHeader";
 import { site } from "@/content/site";
 
@@ -94,7 +95,7 @@ export default function ContactPage() {
             <p className="mt-2 text-sm leading-6 text-slate-400">Email or LinkedIn — both are checked regularly. Pick the path that matches the conversation above.</p>
           </div>
           <div className="flex shrink-0 flex-wrap gap-3">
-            <a href={`mailto:${site.email}`} className="primary-button">Send an email</a>
+            <CopyEmailButton />
             <a href={site.linkedin} target="_blank" rel="noopener noreferrer" className="secondary-button">Connect on LinkedIn</a>
           </div>
         </div>
