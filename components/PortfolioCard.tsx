@@ -11,7 +11,7 @@ type PortfolioCardProps = {
 export function PortfolioCard({ item, compact = false }: PortfolioCardProps) {
   const entries = Object.entries(item.links).filter(([, href]) => Boolean(href));
   return (
-    <article id={item.slug} className={`glass-card p-6 ${item.priority === "primary" ? "ring-1 ring-signal/30" : ""}`}>
+    <article id={item.slug} className={`glass-card p-6 scroll-mt-20 ${item.priority === "primary" ? "ring-1 ring-signal/30" : ""}`}>
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <p className="eyebrow">{item.type}</p>
