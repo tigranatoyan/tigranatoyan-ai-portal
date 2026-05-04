@@ -40,6 +40,16 @@ export default function HomePage() {
         <div className="mt-8">
           <Link href="/portfolio" className="secondary-button">Open full portfolio</Link>
         </div>
+        <div className="mt-10 grid gap-4 md:grid-cols-2">
+          <blockquote className="glass-card p-5 border-l-2 border-signal/50">
+            <p className="text-sm leading-relaxed text-slate-200">Tigran can turn messy business operations into structured product architecture, implementation plans, tested software, and executive-visible proof.</p>
+            <footer className="mt-3 text-xs text-slate-500">BreadCost · full-stack business software</footer>
+          </blockquote>
+          <blockquote className="glass-card p-5 border-l-2 border-signal/50">
+            <p className="text-sm leading-relaxed text-slate-200">Tigran can think and build at the AI platform layer: orchestration, governance, role design, human-in-the-loop review, and controlled software delivery.</p>
+            <footer className="mt-3 text-xs text-slate-500">The.Director · multi-agent AI orchestration</footer>
+          </blockquote>
+        </div>
       </section>
       <section className="section-shell">
         <div className="grid gap-6 lg:grid-cols-2">
