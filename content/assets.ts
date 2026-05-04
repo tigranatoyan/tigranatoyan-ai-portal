@@ -15,11 +15,11 @@ export const assetGroups: AssetGroup[] = [
   {
     group: "CV files",
     folder: "/public/cv",
-    expectedFiles: ["Tigran_Atoyan_AI_CV.pdf", "Tigran_Atoyan_AI_CV.docx"],
-    currentStatus: "placeholder",
+    expectedFiles: ["Tigran_Atoyan.pdf", "Tigran_Atoyan.docx"],
+    currentStatus: "ready",
     mandatoryForV01: true,
     canWaitUntilV1: false,
-    notes: "Add final tailored CV files before preview deployment."
+    notes: "CV files are present. Verify portal URL is in the header/contact area."
   },
   {
     group: "Profile photo/avatar",
@@ -34,31 +34,31 @@ export const assetGroups: AssetGroup[] = [
   {
     group: "BreadCost screenshots",
     folder: "/public/images/breadcost",
-    expectedFiles: ["dashboard.webp", "architecture.webp", "tests.webp", "repo-structure.webp"],
-    currentStatus: "missing",
+    expectedFiles: ["breadcost-proof-overview.svg"],
+    currentStatus: "ready",
     mandatoryForV01: true,
     canWaitUntilV1: false,
     sensitiveDataWarning: "Remove customer, employee, supplier, cost, pricing, and private repo details unless explicitly safe.",
-    notes: "Primary proof asset. Needs at least 3 sanitized images."
+    notes: "Primary proof asset. Public-safe overview visual added. Real screenshots can be added later only after sanitization."
   },
   {
     group: "The.Director screenshots",
     folder: "/public/images/director",
-    expectedFiles: ["cli-flow.webp", "dashboard.webp", "agent-map.webp", "workflow-trace.webp"],
-    currentStatus: "private-needs-sanitizing",
+    expectedFiles: ["director-proof-overview.svg"],
+    currentStatus: "ready",
     mandatoryForV01: true,
     canWaitUntilV1: false,
     sensitiveDataWarning: "Sanitize repo names, tokens, internal paths, prompts, and logs before publishing.",
-    notes: "Primary proof asset. Public/sanitized repo decision still open."
+    notes: "Primary proof asset. Public-safe overview visual added. Raw logs, prompts, tokens, private paths, endpoints, and repo details must remain private."
   },
   {
     group: "SystemForge diagrams",
     folder: "/public/images/systemforge",
-    expectedFiles: ["architecture.webp", "director-arbiter-flow.webp", "knowledge-engine.webp"],
-    currentStatus: "missing",
+    expectedFiles: ["systemforge-proof-overview.svg"],
+    currentStatus: "ready",
     mandatoryForV01: true,
     canWaitUntilV1: false,
-    notes: "Architecture diagrams can be created before working screenshots exist."
+    notes: "Primary proof asset. Public-safe architecture overview visual added. Deeper implementation diagrams can be added later."
   },
   {
     group: "Project Semantic Engine",
@@ -112,10 +112,10 @@ export const assetGroups: AssetGroup[] = [
   {
     group: "OpenGraph image",
     folder: "/public/og",
-    expectedFiles: ["og-image.png"],
-    currentStatus: "placeholder",
+    expectedFiles: ["app/og/og-image.png/route.tsx"],
+    currentStatus: "ready",
     mandatoryForV01: false,
     canWaitUntilV1: true,
-    notes: "Use final LinkedIn-friendly preview art before public launch."
+    notes: "Dynamic Next.js OG image route serves /og/og-image.png at 1200x630. Static public/og/og-image.png can be added later if needed for social preview tooling."
   }
 ];

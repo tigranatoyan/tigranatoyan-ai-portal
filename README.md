@@ -4,14 +4,29 @@ Proof-first public portal for Tigran Atoyan: AI Systems & Operations Builder, AI
 
 This is not a generic portfolio site. It is a conversion asset for hiring managers, CTOs, founders, recruiters, and selected clients who need to inspect proof quickly.
 
+## Current status
+
+Phase 1: Content and positioning complete  
+Phase 2: Technical skeleton complete  
+Phase 3: Preview deployment complete  
+Phase 4: Launch hardening and promotion package complete  
+Phase 5: Public launch polish complete
+
+Primary preview:  
+https://tigranatoyan-ai-portal.vercel.app/
+
+Secondary preview:  
+https://tigranatoyan.github.io/tigranatoyan-ai-portal/
+
+Current indexing:  
+noindex/nofollow preserved until explicit public indexing approval.
+
 ## Live URLs
 
 | Deployment | URL |
 |------------|-----|
 | **Primary (Vercel)** | https://tigranatoyan-ai-portal.vercel.app/ |
 | **Secondary (GitHub Pages)** | https://tigranatoyan.github.io/tigranatoyan-ai-portal/ |
-
-> **Note:** `robots: { index: false, follow: false }` is set intentionally. Public indexing will be enabled only when explicitly approved.
 
 ## Phase status
 
@@ -32,14 +47,21 @@ This is not a generic portfolio site. It is a conversion asset for hiring manage
 
 > Proof assets are real systems, not demos. Private proofs are labelled honestly.
 
+## Proof safety
+
+Some proof assets are public-safe summaries or sanitized visuals. Raw private materials, unsanitized SDIC artifacts, private customer data, credentials, internal logs, private URLs, and confidential delivery evidence must not be committed or published.
+
+## Indexing
+
+`robots: { index: false, follow: false }` is set intentionally. Public indexing will be enabled only when explicitly approved.
+
 ## Tech stack
 
-- Next.js
+- Next.js 15 (App Router)
 - TypeScript
 - TailwindCSS
-- React components
-- App Router
-- Vercel-ready structure
+- OpenAI API (server-side, Vercel only)
+- Dual deployment: Vercel SSR + GitHub Pages static export
 
 
 ## Repository setup
