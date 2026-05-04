@@ -5,7 +5,6 @@ import { PortfolioCard } from "@/components/PortfolioCard";
 import { ProofBadge } from "@/components/ProofBadge";
 import { SectionHeader } from "@/components/SectionHeader";
 import { ProofPathSection } from "@/components/ProofPathSection";
-import { caseStudies } from "@/content/caseStudies";
 import { featuredPortfolioItems } from "@/content/portfolio";
 import { employerRoles, clientOffers } from "@/content/services";
 import { site } from "@/content/site";
@@ -68,18 +67,6 @@ export default function HomePage() {
             </div>
             <Link href="/services#client-track" className="mt-6 inline-flex secondary-button">View client offers</Link>
           </div>
-        </div>
-      </section>
-      <section className="section-shell">
-        <SectionHeader eyebrow="Case studies" title="Proof narratives ready for evidence assets." />
-        <div className="mt-8 grid gap-6 md:grid-cols-2">
-          {caseStudies.slice(0, 2).map((study) => (
-            <article key={study.slug} className="glass-card p-6">
-              <h3 className="text-xl font-semibold text-white">{study.title}</h3>
-              <p className="mt-3 text-sm leading-6 text-slate-300">{study.whatThisProves}</p>
-              <Link href={`/case-studies#${study.slug}`} className="mt-5 inline-flex secondary-button">Read case study</Link>
-            </article>
-          ))}
         </div>
       </section>
       <CTASection
