@@ -42,7 +42,6 @@ export const portfolioItems: PortfolioItem[] = [
     status: "needs-assets",
     priority: "primary",
     links: {
-      docs: "#placeholder-systemforge-docs",
       caseStudy: "/case-studies#systemforge-architektr"
     },
     assetPlaceholders: [
@@ -75,9 +74,7 @@ export const portfolioItems: PortfolioItem[] = [
     priority: "primary",
     links: {
       github: "https://github.com/tigranatoyan/The.Director",
-      demo: "#placeholder-director-demo",
-      caseStudy: "/case-studies#the-director",
-      docs: "#placeholder-director-docs"
+      caseStudy: "/case-studies#the-director"
     },
     assetPlaceholders: [
       "/images/director/director-proof-overview.svg",
@@ -110,9 +107,7 @@ export const portfolioItems: PortfolioItem[] = [
     priority: "primary",
     links: {
       github: "https://github.com/tigranatoyan/breadcost-app",
-      demo: "#placeholder-breadcost-demo",
-      caseStudy: "/case-studies#breadcost",
-      docs: "#placeholder-breadcost-docs"
+      caseStudy: "/case-studies#breadcost"
     },
     assetPlaceholders: [
       "/images/breadcost/breadcost-proof-overview.svg",
@@ -174,8 +169,7 @@ export const portfolioItems: PortfolioItem[] = [
     status: "needs-assets",
     priority: "secondary",
     links: {
-      demo: "#placeholder-project-progress-demo",
-      docs: "#placeholder-project-progress-docs"
+      caseStudy: "/case-studies#ai-project-progress-reporting"
     },
     assetPlaceholders: [
       "/images/project-progress/progress-portal-placeholder.png"
@@ -202,8 +196,7 @@ export const portfolioItems: PortfolioItem[] = [
     status: "private-proof",
     priority: "secondary",
     links: {
-      docs: "#placeholder-business-os-docs",
-      demo: "#placeholder-business-os-demo"
+      caseStudy: "/case-studies#ai-business-os-blackscalemedia"
     },
     assetPlaceholders: [
       "/images/business-reporting/business-os-placeholder.png"
@@ -230,7 +223,7 @@ export const portfolioItems: PortfolioItem[] = [
     status: "needs-assets",
     priority: "secondary",
     links: {
-      demo: "#placeholder-weekly-report-demo"
+      caseStudy: "/case-studies#ai-weekly-business-report"
     },
     assetPlaceholders: [
       "/images/business-reporting/ai_powered_weekly_business_performance_dashboard.png"

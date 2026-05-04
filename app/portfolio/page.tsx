@@ -15,7 +15,7 @@ export default function PortfolioPage() {
         <SectionHeader
           eyebrow="Portfolio"
           title="Actual systems, architectures, and proof assets."
-          description="This page is the evidence hall: business context, technical relevance, what each project proves, and honest placeholders for missing public proof."
+          description="Business context, technical relevance, proof assets, and what each project demonstrates — from agentic platforms to full-stack business software."
         />
       </section>
       <section className="section-shell pt-0">

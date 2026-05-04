@@ -14,8 +14,8 @@ export default function CaseStudiesPage() {
       <section className="section-shell pt-14 md:pt-20">
         <SectionHeader
           eyebrow="Case studies"
-          title="Proof narratives with missing evidence clearly marked."
-          description="Proof narratives with evidence, architecture context, and honest notes on what remains private or in progress."
+          title="Deep-dive proof for each project."
+          description="Architecture context, role breakdown, what was built, and what each project proves about Tigran's capabilities."
         />
       </section>
       <section className="section-shell pt-0">

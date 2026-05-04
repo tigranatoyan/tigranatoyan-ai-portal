@@ -64,8 +64,8 @@ export default function CVPage() {
         description={`${cv.availability} ${cv.contactCta}`}
         primaryLabel="Start contact"
         primaryHref="/contact"
-        secondaryLabel="Open portfolio"
-        secondaryHref="/portfolio"
+        secondaryLabel="Download CV (PDF)"
+        secondaryHref={assetPath(cv.downloads.pdf.path)}
       />
     </>
   );

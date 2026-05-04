@@ -27,7 +27,13 @@ export function CTASection({
         <p className="mt-4 max-w-3xl text-base leading-7 text-slate-300 md:text-lg">{description}</p>
         <div className="mt-7 flex flex-wrap gap-3">
           <Link href={primaryHref} className="primary-button">{primaryLabel}</Link>
-          {secondaryLabel && secondaryHref ? <Link href={secondaryHref} className="secondary-button">{secondaryLabel}</Link> : null}
+          {secondaryLabel && secondaryHref ? (
+            secondaryHref.startsWith("http") || secondaryHref.startsWith("/cv-assets") || secondaryHref.endsWith(".pdf") || secondaryHref.endsWith(".docx") ? (
+              <a href={secondaryHref} className="secondary-button">{secondaryLabel}</a>
+            ) : (
+              <Link href={secondaryHref} className="secondary-button">{secondaryLabel}</Link>
+            )
+          ) : null}
         </div>
       </div>
     </section>

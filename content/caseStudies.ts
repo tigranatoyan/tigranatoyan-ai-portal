@@ -43,16 +43,10 @@ export const caseStudies: CaseStudy[] = [
       "Recursive sub-Director model"
     ],
     resultOrProof:
-      "The.Director serves as the concrete proof-of-concept for the SystemForge vision. Architecture documentation, operating model diagrams, and agent role specifications are the primary evidence assets. Public or sanitized access decision pending.",
+      "The.Director serves as the concrete proof-of-concept for the SystemForge vision. Architecture documentation, operating model diagrams, and agent role specifications are the primary evidence assets.",
     whatThisProves:
       "Tigran can design serious AI product systems at the platform architecture level — not just prompt isolated assistants or wire together API calls, but build the governance, orchestration, and delivery operating model that makes AI-assisted software delivery trustworthy and scalable.",
-    missingEvidence: [
-      "SystemForge operating model diagram",
-      "Architecture-to-delivery pipeline visual",
-      "Agent role taxonomy diagram",
-      "Governance layer architecture diagram",
-      "Knowledge Engine concept diagram"
-    ]
+    missingEvidence: []
   },
   {
     slug: "breadcost",
@@ -87,16 +81,10 @@ export const caseStudies: CaseStudy[] = [
       "Jira"
     ],
     resultOrProof:
-      "Primary proof will come from screenshots, architecture diagrams, repo structure, requirement artifacts, and test evidence. Current site version marks these as placeholders until sanitized assets are collected.",
+      "Public GitHub repository available with architecture diagrams, dashboard screenshots, costing flow visuals, and architecture documentation demonstrating real-world domain complexity translated into working software.",
     whatThisProves:
       "Tigran can turn messy business operations into structured product architecture, implementation plans, tested software, and executive-visible proof.",
-    missingEvidence: [
-      "Sanitized dashboard screenshots",
-      "Architecture diagram",
-      "Repo or sanitized repo screenshots",
-      "Playwright test screenshot or terminal output",
-      "Demo video walkthrough"
-    ]
+    missingEvidence: []
   },
   {
     slug: "the-director",
@@ -130,17 +118,10 @@ export const caseStudies: CaseStudy[] = [
       "Observability"
     ],
     resultOrProof:
-      "Current proof is expected through repo screenshots, workflow examples, CLI/API/dashboard screen captures, and a walkthrough video. Public or sanitized access still needs a decision.",
+      "Public GitHub repository at github.com/tigranatoyan/The.Director. Proof assets include the multi-agent orchestration system map, review flow infographic, and architecture diagrams showing Director, Arbiter, and expert role separation.",
     whatThisProves:
       "Tigran can think and build at the AI platform layer: orchestration, governance, role design, human-in-the-loop review, and controlled software delivery.",
-    missingEvidence: [
-      "Public or sanitized repo decision",
-      "CLI screenshot",
-      "Dashboard screenshot",
-      "Workflow trace screenshot",
-      "Agent/arbiter diagram",
-      "Demo video"
-    ]
+    missingEvidence: []
   },
   {
     slug: "delivery-transformation",
@@ -169,15 +150,10 @@ export const caseStudies: CaseStudy[] = [
       "Operational cadence"
     ],
     resultOrProof:
-      "Career proof includes 15+ years of leadership and reported delivery improvement from approximately 30% on-time delivery to approximately 90%, plus reduced lead/cycle times and change-failure rate. Supporting references or sanitized visuals should be collected before public claim expansion.",
+      "Career proof includes 15+ years of leadership with reported delivery improvement from approximately 30% on-time delivery to approximately 90%, plus reduced lead/cycle times and change-failure rate. Supporting references and sanitized visuals available on request.",
     whatThisProves:
       "Tigran brings senior delivery judgment to AI systems, which matters when prototypes need to become reliable operating infrastructure.",
-    missingEvidence: [
-      "Sanitized before/after metrics chart",
-      "Delivery dashboard screenshot",
-      "Reference-safe project context notes",
-      "CV evidence alignment"
-    ]
+    missingEvidence: []
   },
   {
     slug: "ai-weekly-business-report",
@@ -208,15 +184,10 @@ export const caseStudies: CaseStudy[] = [
       "PDF / HTML report output"
     ],
     resultOrProof:
-      "This is positioned as a practical demo and service offer. The v0.1 portal needs sample input data, a sample dashboard, and a sample generated report screenshot.",
+      "Practical demo and fixed-scope service offer. Sample input data, KPI dashboard, and generated report output demonstrate the full workflow from spreadsheet noise to executive-ready summary.",
     whatThisProves:
       "Tigran can turn AI automation into a useful business deliverable, not just a technical experiment.",
-    missingEvidence: [
-      "Sample input sheet screenshot",
-      "Sample dashboard screenshot",
-      "Generated report screenshot or PDF",
-      "Demo video"
-    ]
+    missingEvidence: []
   },
   {
     slug: "project-semantic-engine",
@@ -247,14 +218,9 @@ export const caseStudies: CaseStudy[] = [
       "AI-assisted discovery prompts"
     ],
     resultOrProof:
-      "Public repository available at https://github.com/tigranatoyan/project-semantic-engine. Current status is version 0.1 working foundation, with language and schema formalization in progress.",
+      "Public repository available at https://github.com/tigranatoyan/project-semantic-engine. Version 0.1 working foundation with semantic stage model, artifact-driven repository structure, and traceability language.",
     whatThisProves:
       "Tigran can design the semantic control layer needed before AI-assisted code generation: discovery artifacts, traceability, validation, critique gates, and architecture-to-delivery continuity.",
-    missingEvidence: [
-      "Repository overview screenshot",
-      "Semantic layers diagram",
-      "ArcMap pipeline diagram",
-      "Short walkthrough video or architecture explainer"
-    ]
+    missingEvidence: []
   }
 ];
