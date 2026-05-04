@@ -1,4 +1,5 @@
 import { CTASection } from "@/components/CTASection";
+import { OpenChatButton } from "@/components/OpenChatButton";
 import { SectionHeader } from "@/components/SectionHeader";
 import { site } from "@/content/site";
 
@@ -50,6 +51,20 @@ export default function ContactPage() {
         </div>
       </section>
       <section className="section-shell pt-0">
+        {process.env.NEXT_PUBLIC_IS_GITHUB_PAGES !== "true" && (
+          <div className="glass-card p-6 md:p-8 mb-6">
+            <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+              <div>
+                <p className="eyebrow">Not sure where to start?</p>
+                <h2 className="mt-1 text-xl font-semibold text-white">Ask the AI assistant directly</h2>
+                <p className="mt-2 text-sm leading-6 text-slate-400">Describe your situation — automation need, role fit, or collaboration idea — and get a direct answer about whether Tigran is the right fit.</p>
+              </div>
+              <div className="shrink-0">
+                <OpenChatButton />
+              </div>
+            </div>
+          </div>
+        )}
         <div className="glass-card p-6 md:p-8">
           <h2 className="text-2xl font-semibold text-white">Direct contact</h2>
           <dl className="mt-6 grid gap-4 md:grid-cols-2">

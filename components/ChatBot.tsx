@@ -8,9 +8,10 @@ type Message = {
 };
 
 const STARTER_QUESTIONS = [
-  "What projects has Tigran built?",
+  "I need to automate my reporting — can Tigran help?",
+  "What AI automation projects can Tigran take on as a client?",
   "What roles is Tigran targeting?",
-  "How can I hire Tigran?",
+  "Tell me about BreadCost and The.Director",
 ];
 
 export function ChatBot() {
@@ -26,6 +27,13 @@ function ChatBotWidget() {
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  // Allow external callers (e.g. contact page CTA) to open the widget
+  useEffect(() => {
+    const handler = () => setIsOpen(true);
+    window.addEventListener("open-chatbot", handler);
+    return () => window.removeEventListener("open-chatbot", handler);
+  }, []);
 
   useEffect(() => {
     if (isOpen) {
